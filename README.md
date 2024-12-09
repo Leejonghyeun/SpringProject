@@ -60,3 +60,97 @@ json
     }
 ]
 ```
+
+### 3. 특정 일정 조회
++ URL: /schedules/{id}
+  
++ Method: GET
+  
++ Description: 특정 일정을 조회합니다.
+  
++ Path Parameter:
+  
++ id (필수): 조회할 일정의 고유 ID.
+  
++ Response:
+  
++ Status: 200 OK
+  
++ Body:
+  
+json
+```js
+{
+    "id": 1,
+    "task": "Learn Spring Boot",
+    "author": "John Doe",
+    "createdAt": "2023-12-01T10:00:00",
+    "updatedAt": "2023-12-01T10:00:00"
+}
+```
+
+### 4. 일정 수정
++ URL: /schedules/{id}
+  
++ Method: PUT
+  
++ Description: 특정 일정의 내용을 수정합니다.
+  
++ Path Parameter:
+  
++ id (필수): 수정할 일정의 고유 ID.
+  
++ Request Headers:
+  
++ Content-Type: application/json
+  
++ Request Body:
+  
+json
+```js
+{
+    "task": "Learn JDBC",
+    "author": "Jane Doe",
+    "password": "1234"
+}
+```
++ Response:
+  
++ Status: 200 OK
+  
++ Body:
+  
+json
+```js
+{
+    "message": "Schedule updated successfully."
+}
+```
+
+### 5. 일정 삭제
++URL: /schedules/{id}
+
++ Method: DELETE
+
++ Description: 특정 일정을 삭제합니다.
+
++ Path Parameter:
+
++ id (필수): 삭제할 일정의 고유 ID.
+
++ Query Parameter:
+
++ password (필수): 일정 삭제를 위한 비밀번호.
+
++ Response:
+
++ Status: 200 OK
+
++Body:
+
+json
+```js
+{
+    "message": "Schedule deleted successfully."
+}
+```
