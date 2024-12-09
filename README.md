@@ -15,7 +15,7 @@
 + Request Body:
 
 json
-,,,js
+```js
 {
     "task": "Learn Spring Boot",
     "author": "John Doe",
@@ -29,7 +29,7 @@ json
 + Body:
 
 json
-,,,js
+```js
 {
     "message": "Schedule created successfully."
 }
