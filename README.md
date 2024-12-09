@@ -1,6 +1,6 @@
 # API 명세서
 
-1. 일정 생성
+##1. 일정 생성
    
 + URL: /schedules
 
@@ -34,7 +34,8 @@ json
     "message": "Schedule created successfully."
 }
 ```
-2. 전체 일정 조회
+
+##2. 전체 일정 조회
 + URL: /schedules
   
 + Method: GET
