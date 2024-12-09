@@ -4,31 +4,32 @@
    
 + URL: /schedules
 
-Method: POST
++ Method: POST
 
-Description: 새로운 일정을 생성합니다.
++ Description: 새로운 일정을 생성합니다.
 
-Request Headers:
++ Request Headers:
 
-Content-Type: application/json
++ Content-Type: application/json
 
-Request Body:
++ Request Body:
 
 json
-
+,,,js
 {
     "task": "Learn Spring Boot",
     "author": "John Doe",
     "password": "1234"
 }
 
-Response:
++ Response:
 
-Status: 200 OK
++ Status: 200 OK
 
-Body:
++ Body:
 
 json
+,,,js
 {
     "message": "Schedule created successfully."
 }
