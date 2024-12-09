@@ -21,7 +21,7 @@ json
     "author": "John Doe",
     "password": "1234"
 }
-
+```
 + Response:
 
 + Status: 200 OK
@@ -33,3 +33,4 @@ json
 {
     "message": "Schedule created successfully."
 }
+```
