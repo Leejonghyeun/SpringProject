@@ -154,3 +154,6 @@ json
     "message": "Schedule deleted successfully."
 }
 ```
+
+![스크린샷 2024-12-09 181841](https://github.com/user-attachments/assets/6eff9a61-8f21-4368-982f-786c67a0ce06)
+
